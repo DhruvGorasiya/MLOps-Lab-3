@@ -1,0 +1,8 @@
+stages:
+  calc_avg:
+    cmd: python src/average.py
+    deps:
+    - data/measurements.csv
+    - src/average.py
+    outs:
+    - results.txt

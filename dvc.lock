@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  calc_avg:
+    cmd: python src/average.py
+    deps:
+    - path: data/measurements.csv
+      hash: md5
+      md5: 0ccf0e24f6caaaedb7678388fde255ee
+      size: 49
+    - path: src/average.py
+      hash: md5
+      md5: 48ac5940049865c1a6547efd77170c5e
+      size: 235
+    outs:
+    - path: results.txt
+      hash: md5
+      md5: f1668f1bc3425c3ae772aadc2b642f43
+      size: 22

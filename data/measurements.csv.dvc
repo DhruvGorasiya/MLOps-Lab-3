@@ -1,0 +1,5 @@
+outs:
+- md5: 0ccf0e24f6caaaedb7678388fde255ee
+  size: 49
+  hash: md5
+  path: measurements.csv
